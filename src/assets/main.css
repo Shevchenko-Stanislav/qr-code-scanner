@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: ptrootuibold;
+    src: url("../assets/fonts/pt-root-ui_bold.woff");
+}
+
+@font-face {
+    font-family: ptrootui;
+    src: url("../assets/fonts/pt-root-ui_regular.woff");
+}
+
+
+/*общие стили*/
+
+html {
+  font-size: 100%;
+  font-family: ptrootui;
+}
+
+body {
+  background-image: url("./images/mainbg.svg");
+  background-color: rgb(234, 234, 234);
+  padding: 2.2rem 0 0 0;
+  margin: 0;
+}
+
+button{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background-color: #3B6C69;
+  color: white;
+  padding: 1vw 3vw;
+  border-radius: .7vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*общие стили, конец*/
+
