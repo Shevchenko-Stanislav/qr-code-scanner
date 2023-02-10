@@ -38,6 +38,13 @@ button{
   border-radius: .7vw;
   font-weight: bold;
   text-decoration: none;
+  width: 70%;
+}
+
+@media screen and (max-height: 768px) {
+  button {
+    padding: 3vw 6vw;
+  }
 }
 
 /*общие стили, конец*/
